@@ -8,7 +8,7 @@ public class Convidado {
 	private String bebida;
 	private Alimentacao aliment;
 	
-	public Convidado(String nome, boolean bebida, Alimentacao aliment) {
+	public Convidado(String nome, String bebida, Alimentacao aliment) {
 		this.nome = nome;
 		this.bebida = bebida;
 		this.aliment = aliment;
