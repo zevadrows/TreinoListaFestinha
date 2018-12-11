@@ -5,10 +5,10 @@ import entities.enums.Alimentacao;
 public class Convidado {
 	
 	private String nome;
-	private String bebida;
+	private char bebida;
 	private Alimentacao aliment;
 	
-	public Convidado(String nome, String bebida, Alimentacao aliment) {
+	public Convidado(String nome, char bebida, Alimentacao aliment) {
 		this.nome = nome;
 		this.bebida = bebida;
 		this.aliment = aliment;
@@ -22,11 +22,11 @@ public class Convidado {
 		this.nome = nome;
 	}
 
-	public String getBebida() {
+	public char getBebida() {
 		return bebida;
 	}
 
-	public void setBebida(String bebida) {
+	public void setBebida(char bebida) {
 		this.bebida = bebida;
 	}
 
@@ -37,6 +37,7 @@ public class Convidado {
 	public void setAliment(Alimentacao aliment) {
 		this.aliment = aliment;
 	}
+	
 	
 
 }
